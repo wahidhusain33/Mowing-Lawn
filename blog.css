@@ -17,6 +17,7 @@ body,input,textarea{
     width: 100%;
     z-index: 4;
     border-top: 2px silver;
+    
 }
 ul {
     list-style-type: none;
@@ -27,7 +28,7 @@ ul {
   li {
     display: inline;
   }
-  li a,img {
+  li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -36,6 +37,10 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     color: gray;
+  }
+  .img {
+      float: left;
+
   }
   
   li a:hover {
@@ -51,13 +56,13 @@ ul {
     padding-right: 100px;
 }
 .mid{
-    border-top: 1px solid #333;
+    border-top: 0.8px solid rgb(172, 169, 169);
     margin-top: 170px;
     display: flex;
 }
 .left1{
     width: 74%;
-    border-right: 1px solid #333;
+    border-right: 0.8px solid rgb(177, 173, 173);
     margin-top: 0;
 }
 .art{
@@ -210,27 +215,42 @@ a.linkingx{
         padding: 0;
         box-sizing: border-box;
     }
+    .top1 {
+        height: 150px;
+        position: fixed;
+
+    }
     li a{
         padding:10px;
+        font-size: 10px;
+        padding-left: 5px;
+    padding-right: 5px;
     }
+    .img {
+        float:left;
+        padding-left: 0px;
+
+    }
+
     #wood1{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 100px;
         padding-right: 100px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .top1{
-        height: 150px;
+        height: 100px;
     }
+    
     .mid{
-        border-top: 1px solid #333;
+        border-top: 0.7px solid gray;
+        border-right: none;
         margin-top: 170px;
         display: flex;
         flex-direction: column;
     }
     .left1{
         width: 100%;
-        border-right: 1px solid #333;
         margin-top: 0;
     }
     .right1{
@@ -245,29 +265,25 @@ a.linkingx{
         width: 100%;
     }
     .foot1{
-        display: flex;
-        height: 300px;
+        height: 600px;
         font-size: 15px;
+        width:100%;
+        display: block;
+        padding-top:20px;
     }
     .footx{
-        width: 30%;
+        width: 80%;
         color: white;
-        margin-top: 20px;
-        margin-left: 25px;
     }
+    
     .footy{
-        width: 30%;
+        width: 100%;
         color: white;
-        margin-top: 20px;
-        margin-left: 30px;
-        display: flex;
-        flex-direction: column;
+       
     }
     .footz{
-        width: 25%;
+        width: 100%;
         color: white;
-        margin-top: 20px;
-        margin-left: 30px;
     }
     .head3{
         color: green;

@@ -5,6 +5,7 @@
 }
 body,input,textarea{
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 .top1{
     background-color: white;
@@ -36,7 +37,6 @@ ul {
     padding-right: 20px;
     color: gray;
   }
-  
   li a:hover {
     opacity: 0.3;
     transition: 1s;
@@ -47,13 +47,13 @@ ul {
 }
 
 #wood1{
-    width: 400px;
-    padding-right: 100px;
+    width: 450px;
+    padding-right: 20%;
 }
 .price{
     height: 700px;
     width: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.5)), url("pricingback.jpeg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.5)), url("https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-lawncare-service.jpg");
     text-align: center;
     padding-top: 320px;
     font-size: 80px;
@@ -65,11 +65,12 @@ ul {
     display: flex;
     margin-top: 50px;
     padding-left: 5px;
+    width: 100%;
 }
 .flex1{
     padding-top: 35px;
     font-size: 35px;
-    margin-left: 200px;
+    margin-left: 15%;
     color: #333;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
@@ -122,7 +123,7 @@ ul {
 .midfoot{
     text-align: center;
     width: 45%;
-    margin-left: 350px;
+    margin-left: 25%;
     font-size: 20px;
     color: #777;
     margin-top: -20px;
@@ -137,18 +138,19 @@ ul {
     height: 230px;
     color: white;
     margin-top: 50px;
+    width: 100%;
 }
 #parax{
     font-size: 30px;
     text-align: center;
     width: 50%;
-    margin-left: 350px;
+    margin-left: 25%;
     padding-top: 50px;
     font-family: 'Della Respira',Georgia,"Times New Roman",serif;
     font-weight: 550;
 }
 #con{
-    margin-left: 615px;
+    margin-left: 45%;
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
@@ -174,6 +176,7 @@ button:hover span{
 .foot{
     margin-top: 70px;
     background-color: rgb(31, 31, 31);
+    width: 100%;
 }
 .foot1{
     display: flex;
@@ -183,13 +186,13 @@ button:hover span{
     width: 25%;
     color: white;
     margin-top: 20px;
-    margin-left: 95px;
+    margin-left: 7%;
 }
 .footy{
     width: 25%;
     color: white;
     margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
 }
@@ -197,7 +200,7 @@ button:hover span{
     width: 25%;
     color: white;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 5%;
     
 }
 .head3{
@@ -230,13 +233,10 @@ a.linkingx{
     height: 30px;
     width: 30px;
     position: relative;
-    bottom: 20px;
-    right: 10px;
     border: none;
     border-radius: 50%;
 }
-#instax{
-    margin-left: -30px;
+#insta{
     border: none;
     border-radius: 50%;
 }
@@ -247,7 +247,7 @@ a.linkingx{
 #copyright{
     font-weight: lighter;
     color: white;
-    margin-left: 90px;
+    margin-left: 7%;
     position: relative;
     top: 15px;
 }

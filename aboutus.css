@@ -211,13 +211,6 @@
     background-color: #71AA63;
     width:180px;
     cursor:pointer;
-    border: none;
-}
-.anglex{
-    display: none;
-}
-button:hover span{
-    display: inline;
 }
 
 .main7 {
@@ -244,6 +237,11 @@ button:hover span{
     text-align: left;
 
 }
+.main73 a {
+    text-decoration: none;
+    color: white;
+
+}
 .main7 p {
     color:white;
     font-size:15px;
@@ -261,23 +259,16 @@ button:hover span{
     width:100%;
     padding-top:10px;
     background-color: #171717;
+
 }
 .bottom p {
     color:white;
     font-family:'Roboto', sans-serif;
     font-size:15px;
     padding-left:20px;
-}
-a.quick{
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-}
-.main7111{
-    margin-left: -50px;
-}
+    
 
-
+}
 @media only screen and (max-width:600px) {
     *{
         margin: o;
@@ -285,9 +276,10 @@ a.quick{
         box-sizing: border-box;
     }
     #wood1 {
-        width: 300px;
+        width: 260px;
         height: 60px;
         margin-left:5px;
+
     }
     .text2 {
         font-size: 70px;
@@ -368,6 +360,7 @@ a.quick{
         height:300px;
         width:90%;
        
+    
     }
     .main511 h1{
         font-size:25px;
@@ -405,34 +398,34 @@ a.quick{
         width:100%;
         float:left;
         margin-left:20px;
-    }
-
-}
-@media only screen and (max-width: 600px) {
-    .topnav li {
-        display: none;
-    }
-    .topnav .icon {
-    color: rgb(87, 87, 251);
-    float: right;
-    display: block;
-      
-    }
+        
     
-}
-  
-@media screen and (max-width: 600px) {
-    .topnav.responsive {
-        position: relative;
     }
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+    @media only screen and (max-width: 600px) {
+        .topnav li {
+            display: none;
+        }
+        .topnav .icon {
+        color: rgb(87, 87, 251);
+        float: right;
+        display: block;
+          
+        }
+        
     }
-    .topnav.responsive li {
-      float: left;
-      display: block;
-      text-align: left;
+      
+    @media screen and (max-width: 600px) {
+        .topnav.responsive {
+            position: relative;
+        }
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive li {
+          float: left;
+          display: block;
+          text-align: left;
+        }
     }
-}

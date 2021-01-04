@@ -82,7 +82,7 @@
     </div>
     <div class="main6">
         <p>Request an estimate today.</p>
-        <button id="contact" type="contact" value="explore">Contact Us <span class="anglex"> > </span></button>
+        <button id="contact" type="contact" value="explore">Contact Us</button>
     </div>
     <div class="main7">
         <div class="main71">
@@ -93,15 +93,15 @@
                 schedule your appointment 405-886-5296.</p>
         </div>
         <div class="main72">
-            <p id="main711" class="main7111">Quick Links</p>
-            <a class="quick" href="aboutus.html">About</a><br>
-            <a class="quick" href="services.html">Services</a><br>
-            <a class="quick" href="contactus.html">Contact</a>
+            <p id="main711">Quick Links</p>
+            <p><a href="aboutus.html"> About</a> <br>
+                <a href="services.html">  Services</a><br>
+                <a href="contactus.html"> Contact</a></p>
         </div>
         <div class="main73">
             <p id="main711">Contact Info</p>
-            <p><b>Phone</b> <a class="quick" href="#"> 405-886-LAWN (5296)</a><br>
-                <b>Email</b><a class="quick" href="#"> brady@woodlawnservices.com</a><br>
+            <p><b>Phone</b><a href="">  405-886-LAWN(5296)</a><br>
+                <b>Email</b><a href="">  brady@woodlawnservices.com</a><br>
                 <i class="fab fa-facebook" style="color:#4E943C; font-size:30px;margin-top:20px;"></i>
                 <i class="fab fa-instagram" style="color:#4E943C; font-size:30px;margin-top:20px;margin-left:50px;"></i>
             </p>
@@ -119,6 +119,24 @@
             x.className = "top1";
           }
         }
+        </script>
+        <script>
+
+            window.onscroll = function () { scrollFunction() };
+    
+            function scrollFunction() {
+                if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    document.getElementById("top1").style.fontSize = "15px";
+                    document.getElementById("top1").style.height = "90px";
+                    document.getElementById("wood1").style.width = "180px";
+                    document.getElementById("wood1").style.height = "60px";
+                } else {
+                    document.getElementById("top1").style.fontSize = "20px";
+                    document.getElementById("top1").style.height = "150px";
+                    document.getElementById("wood1").style.width = "250px";
+                    document.getElementById("wood1").style.height = "90px";
+                }
+            }
         </script>
 </body>
 
