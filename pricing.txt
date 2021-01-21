@@ -1,0 +1,253 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,input,textarea{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+.top1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    display: inline;
+  }
+  li a,img{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: gray;
+  }
+  li a:hover {
+    opacity: 0.3;
+    transition: 1s;
+  }
+  .icon {
+    display: none;
+}
+
+#wood1{
+    width: 450px;
+    padding-right: 20%;
+}
+.price{
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.5)), url("https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-lawncare-service.jpg");
+    text-align: center;
+    padding-top: 320px;
+    font-size: 80px;
+    color: white;
+    padding-left: 100px;
+    font-family: 'Playfair Display', serif;
+}
+.flex-container1{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 5px;
+    width: 100%;
+}
+.flex1{
+    padding-top: 35px;
+    font-size: 35px;
+    margin-left: 15%;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+#accept{
+    margin-left: 75px;
+}
+.flex2{
+    margin-top: -10px;
+    margin-left: 30px;
+}
+#checkx{
+    height: 150px;
+    width: 150px;
+}
+.flex3{
+    margin-top: 5px;
+    margin-left: -20px;
+}
+#visa{
+    height: 140px;
+    width: 140px;
+}
+.flex4{
+    margin-top: 8px;
+    margin-left: -20px;
+}
+#mcard{
+    height: 132px;
+    width: 140px;
+}
+.flex5{
+    margin-top: 5px;
+    margin-left: -10px;
+}
+#coin{
+    height: 135px;
+    width: 140px;
+}
+.flex6{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+#pay{
+    height: 175px;
+    width: 205px;
+    margin-top: -25px;
+}
+.midfoot{
+    text-align: center;
+    width: 45%;
+    margin-left: 25%;
+    font-size: 20px;
+    color: #777;
+    margin-top: -20px;
+}
+.contact{
+    text-decoration: none;
+    color: #2ea4f2;
+    font-size: 21px;
+}
+.endpage{
+    background-color: #2a9c0d!important;
+    height: 230px;
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+}
+#parax{
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 50px;
+    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    font-weight: 550;
+}
+#con{
+    margin-left: 45%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #2a9c0d31;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white;
+    border-radius: 2px;
+}
+.angle{
+    display: none;
+  }
+button:hover span{
+    display: inline;
+    transition: 3s;
+}
+#con:hover{
+    background-color: #9be98656;
+    transition-duration: 1s;
+    border: 1px solid  #9ce986;
+    border: none;
+}
+.foot{
+    margin-top: 70px;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+}
+.foot1{
+    display: flex;
+    height: 240px;
+}
+.footx{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.footy{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.footz{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 5%;
+    
+}
+.head3{
+    color: green;
+    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.small{
+    font-size: 15px;
+}
+a.quick{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+a.linkingx{
+    text-decoration: none;
+    color: #2ea3f2;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    padding-left: -10px;
+
+}
+.fbx{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+}
+#insta{
+    border: none;
+    border-radius: 50%;
+}
+.foot2{
+    background-color: rgb(14, 14, 14);
+    height: 50px;
+}
+#copyright{
+    font-weight: lighter;
+    color: white;
+    margin-left: 7%;
+    position: relative;
+    top: 15px;
+}
+
